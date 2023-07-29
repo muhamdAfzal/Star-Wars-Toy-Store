@@ -2,7 +2,7 @@ import errorImage from "../../assets/404/funny-404-page.png";
 
 const ErrorPage = () => {
   return (
-    <div>
+    <div className="flex justify-center items-center h-screen">
       <img src={errorImage} alt="" />
     </div>
   );

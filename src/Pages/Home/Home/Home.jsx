@@ -5,8 +5,9 @@ const Home = () => {
     <div>
       <div className="relative">
         <img src={banner} alt="banner" className="rounded-xl" />
-        <h1 className="absolute text-5xl left-1/2 mx-auto bottom-52">
-          Are you on the Dark Side or the Light Side?
+        <h1 className="absolute text-6xl font-bold text-center mx-44 bottom-20">
+          Are you on <br /> <span className="text-red-600">The Dark Side</span>{" "}
+          or <span className="text-blue-600">The Light Side</span>
         </h1>
         <h3>Choose the toys from your side!!!</h3>
       </div>
