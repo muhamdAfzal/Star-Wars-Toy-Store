@@ -1,7 +1,7 @@
 import { TabList, TabPanel, Tabs, Tab } from "react-tabs";
 import "react-tabs/style/react-tabs.css";
 
-// ------ NEED WORK TO DO ------ //
+// ------ NO PRODUCTS INPUTTED YET!!! ------ //
 const ReactTab = () => {
   return (
     <Tabs>
@@ -12,13 +12,67 @@ const ReactTab = () => {
       </TabList>
 
       <TabPanel>
-        <h1>Any Content 1</h1>
+        <Tabs>
+          <TabList>
+            <Tab>Sub-Category 1</Tab>
+            <Tab>Sub-Category 2</Tab>
+            <Tab>Sub-Category 3</Tab>
+          </TabList>
+          <TabPanel>
+            <h1>Headline of 'Sub-category 1'</h1>
+            <p>some info</p>
+          </TabPanel>
+          <TabPanel>
+            <h1>Headline of 'Sub-category 2'</h1>
+            <p>some info</p>
+          </TabPanel>
+          <TabPanel>
+            <h1>Headline of 'Sub-category 3'</h1>
+            <p>some info</p>
+          </TabPanel>
+        </Tabs>
       </TabPanel>
       <TabPanel>
-        <h1>Any Content 2</h1>
+        <Tabs>
+          <TabList>
+            <Tab>Sub-Category 1</Tab>
+            <Tab>Sub-Category 2</Tab>
+            <Tab>Sub-Category 3</Tab>
+          </TabList>
+          <TabPanel>
+            <h1>Headline of 'Sub-category 1'</h1>
+            <p>some info</p>
+          </TabPanel>
+          <TabPanel>
+            <h1>Headline of 'Sub-category 2'</h1>
+            <p>some info</p>
+          </TabPanel>
+          <TabPanel>
+            <h1>Headline of 'Sub-category 3'</h1>
+            <p>some info</p>
+          </TabPanel>
+        </Tabs>
       </TabPanel>
       <TabPanel>
-        <h1>Any Content 3</h1>
+        <Tabs>
+          <TabList>
+            <Tab>Sub-Category 1</Tab>
+            <Tab>Sub-Category 2</Tab>
+            <Tab>Sub-Category 3</Tab>
+          </TabList>
+          <TabPanel>
+            <h1>Headline of 'Sub-category 1'</h1>
+            <p>some info</p>
+          </TabPanel>
+          <TabPanel>
+            <h1>Headline of 'Sub-category 2'</h1>
+            <p>some info</p>
+          </TabPanel>
+          <TabPanel>
+            <h1>Headline of 'Sub-category 3'</h1>
+            <p>some info</p>
+          </TabPanel>
+        </Tabs>
       </TabPanel>
     </Tabs>
   );
