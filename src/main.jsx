@@ -5,7 +5,8 @@ import { RouterProvider } from "react-router-dom";
 import router from "./Routes/Routes.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <div className="max-w-7xl mx-auto">
+  // The attribute used in class in this <div> will be applied to the whole website
+  <div className="">
     <React.StrictMode>
       <RouterProvider router={router} />
     </React.StrictMode>
