@@ -16,7 +16,7 @@ const MidSection = () => {
       </container>
       <container className="flex gap-28 px-36 mt-36">
         <div className="mt-36">
-          <h1 className="font-bold text-4xl">Easy To Get</h1>
+          <h1 className="font-bold text-4xl">Easier To Get</h1>
           <hr className="my-5" />
           <p className="text-2xl font-semibold">
             Explore store, Select your toy and Order

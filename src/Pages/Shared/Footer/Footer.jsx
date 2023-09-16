@@ -3,8 +3,8 @@ import logo from "../../../assets/logo.png";
 
 const Footer = () => {
   return (
-    <div>
-      <footer className="footer py-10 px-28 bg-gray-800  justify-between text-white mt-28">
+    <div className="bg-gray-800">
+      <footer className="footer py-10 justify-between text-white mt-28 max-w-7xl mx-auto">
         <div>
           <div className="w-36 pb-4">
             <Link to="./">
@@ -69,10 +69,10 @@ const Footer = () => {
           </div>
         </div>
       </footer>
-      <footer className="footer footer-center p-5 bg-slate-950 text-white">
+      <footer className="footer footer-center py-5 bg-slate-950 text-white">
         <div>
           <p>
-            Copyright © 2023 - All right reserved by "STAR WARS" Toy Store Ltd.
+            Copyright © 2023 - All right reserved to "STAR WARS" Toy Store Ltd.
           </p>
         </div>
       </footer>
