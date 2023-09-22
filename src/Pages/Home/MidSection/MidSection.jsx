@@ -5,7 +5,7 @@ const MidSection = () => {
   return (
     <section>
       <container className="flex gap-32 px-36 mt-36">
-        <img src={babyYoda} alt="" className="h-96" />
+        <img src={babyYoda} alt="" className="h-96 p-4" />
         <div className="mt-20">
           <h1 className="font-bold text-4xl">May The Force Be With You</h1>
           <hr className="my-5" />
@@ -22,7 +22,7 @@ const MidSection = () => {
             Explore store, Select your toy and Order
           </p>
         </div>
-        <img src={stormtrooper} alt="" className="w-96" />
+        <img src={stormtrooper} alt="" className="w-96 p-5" />
       </container>
     </section>
   );
