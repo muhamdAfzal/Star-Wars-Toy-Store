@@ -1,7 +1,8 @@
 import Banner from "../Banner/Banner";
 import Gallery from "../Gallery/Gallery";
 import ReactTab from "../../Home/Tab/ReactTab";
-import MidSection from "../MidSection/MidSection";
+import Rating from "../Rating/Rating";
+import HeroMid from "../HeroMid/HeroMid";
 
 const Home = () => {
   return (
@@ -9,7 +10,8 @@ const Home = () => {
       <Banner></Banner>
       <Gallery></Gallery>
       <ReactTab></ReactTab>
-      <MidSection></MidSection>
+      <HeroMid></HeroMid>
+      <Rating></Rating>
     </div>
   );
 };

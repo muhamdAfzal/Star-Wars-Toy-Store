@@ -1,5 +1,5 @@
 import babyYoda from "../../../assets/Baby Yoda Toy.png";
-import stormtrooper from "../../../assets/Stormtrooper.png";
+import stormTrooper from "../../../assets/Stormtrooper.png";
 
 const MidSection = () => {
   return (
@@ -22,7 +22,7 @@ const MidSection = () => {
             Explore store, Select your toy and Order
           </p>
         </div>
-        <img src={stormtrooper} alt="" className="w-96 p-5" />
+        <img src={stormTrooper} alt="" className="w-96 p-5" />
       </container>
     </section>
   );
